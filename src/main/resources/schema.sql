@@ -1,0 +1,8 @@
+CREATE TABLE orders (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  date DATE NOT NULL,
+  product VARCHAR(250) NOT NULL,
+  quantity INT NOT NULL,
+  value DECIMAL(20, 2) NOT NULL,
+  payment_code VARCHAR(100)
+);
